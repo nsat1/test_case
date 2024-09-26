@@ -1,0 +1,3 @@
+reporter:
+  grpc:
+    host-port: "${JAEGER_COLLECTOR_HOST}:${JAEGER_COLLECTOR_PORT}"

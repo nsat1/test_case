@@ -5,7 +5,7 @@ import unittest
 from unittest.mock import patch
 
 from pytracelog.base import PyTraceLog, LOGSTASH_HOST, LOGSTASH_PORT, OTEL_EXPORTER_JAEGER_AGENT_HOST
-from pytracelog.logging.handlers import StdoutHandler, StderrHandler, TracerHandler
+from pytracelog.pytracelog_logging.handlers import StdoutHandler, StderrHandler, TracerHandler
 
 from logstash_async.handler import AsynchronousLogstashHandler
 

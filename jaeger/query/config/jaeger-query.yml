@@ -1,6 +1,0 @@
-span-storage:
-  type: elasticsearch
-  es:
-    server-urls: "http://${ELASTICSEARCH_HOST}:${ELASTICSEARCH_PORT}"
-    username: "${ELASTICSEARCH_USERNAME}"
-    password: "${ELASTICSEARCH_PASSWORD}"

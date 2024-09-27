@@ -1,6 +1,0 @@
-cluster.name: "docker-cluster"
-network.host: 0.0.0.0
-discovery.seed_hosts: ["elasticsearch"]
-cluster.initial_master_nodes: ["elasticsearch"]
-xpack.security.enabled: true
-xpack.security.transport.ssl.enabled: false
